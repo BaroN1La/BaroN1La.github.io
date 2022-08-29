@@ -1,0 +1,1145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    width: 100%;
+    
+
+}
+.thumbnail{
+    background-color:#F7F8FD;;
+    min-height: 856px;    
+    height: 100%;
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 224px ;    
+    padding-right: 222px;
+    
+    
+}
+
+/* .container{}     */
+
+.header{
+    height: 49px;
+    max-width: 1282px;
+    
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 561px;
+}
+
+.header-btn{
+    width: 120px;
+    height: 49px;
+    background-color: #03045E;
+    border-radius: 5px;
+    padding: 11px 35px;
+    font-family: 'Poppins';
+    font-style:  normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    text-decoration: none;
+
+
+    color: #FFFFFF;
+    
+
+
+}
+
+
+
+.header-nav_item{
+    margin-top: 12px;    
+    margin-top: 13px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    
+    
+    color: #03045E;
+}
+
+.header-nav_item-text{
+    text-decoration: none;
+    color: #03045E;
+}
+
+.screen1-container{
+    margin-top: 202px;
+    max-width: 1282px;
+    width: 100%;
+    height: 317px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.screen1-inner_container{
+    max-width: 585px;
+    width: 100%;
+}
+.screen1-title{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 68px;
+    
+
+
+    color: #03045E;
+}
+
+.screen1-short_title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: rgba(3, 4, 94, 0.5);
+    margin-top: 36px;
+}
+
+
+.screen1-btn{
+    background: #0098FF;
+    border-radius: 5px;
+    
+    width: 188px;
+    height: 61px;
+    padding: 17px 38px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-decoration: none;
+    
+
+    color: #FFFFFF;
+
+    position: relative;
+    top: 53px;
+}
+
+.screen1-img{
+    /* position: absolute;
+    width: 624px;
+    height: 456px;
+    left: 880px;
+    top: 200px;
+    right: 400px; */
+    
+    width: 624px;
+    height: 456px;
+}
+
+/* thumbnail - end */
+
+/* Section Your-Domain start  */
+
+
+.screen2{
+    
+    height: 100%;
+    padding: 150px 224px;
+}
+.domain-container{
+    height: 134px;
+    
+    max-width: 1280px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.domain-container_search-title{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    
+
+    color: #03045E;
+}
+
+.domain-container_search-field_container{
+    background: #F6F6F6;
+    border-radius: 5px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    width: 625px;
+    margin-top: 36px;
+}
+.domain-container_search-field_text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    
+
+    color: #03045E;
+
+    opacity: 0.5;
+    margin-top: 18px;
+    margin-left: 20px;
+}
+
+
+
+
+.domain-container_search-field_btn-text{
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    background: #0098FF;
+    border-radius: 0px 5px 5px 0px;
+    width: 159px;
+    height: 60px;
+    padding: 15px 38px 18px;
+
+
+    color: #FFFFFF;
+}
+.domain-line{
+    width: 134px;
+    height: 0px;
+    opacity: 0.1;
+    margin-top: 67px;
+    border: 1px solid #03045E;
+    transform: rotate(90deg);
+    
+
+}
+
+.domain-container_domains{
+    width: 517px;
+    height: 134px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.domain-container_domains-block2{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.domain-container_domains-block1{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.domain-container_domains-domain{
+    width: 95px;
+    height: 51px;
+
+
+}
+
+
+.domain-container_domains-domain_name{
+    margin-top: 7px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    
+
+    color: #0098FF;
+}
+.domain-container_domains-domain_price{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    
+
+
+   
+
+    color: #03045E;
+
+    opacity: 0.3;
+}
+/* Section Your-Domain end  */
+
+/* Section Features start  */
+.service-container{
+    min-height: 996px;
+    height: 100%;
+    padding: 150px 224px 0px 224px;
+    
+    
+    
+    background: #f6f6f667;
+    
+}
+
+
+.section-title{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+
+    color: #03045E;
+    text-align: center;
+    width: 100%;
+    
+    
+}
+
+.section-features_container{
+    display: flex;
+    width: 100%;
+    max-width: 1282px;
+    margin-top: -30px;
+    justify-content: space-between;
+    
+    
+    
+}
+
+.service-inner_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.section-features_block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.section-features_inner-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    width: 100%;
+    
+    max-width: 407px;
+    min-height: 255px;
+    margin-top: 80px;
+}
+
+
+.section-features_block-shorttitle{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+
+    /* Primary */
+
+    color: #03045E;
+
+    opacity: 0.5;
+}
+
+.section-features_block-title{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+
+
+    /* Primary */
+
+    color: #03045E;
+}
+
+
+
+
+/* Section Features end  */
+
+
+/* Section Clients start */
+
+
+.clients-container{
+    min-height: 717px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.clients-title{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    
+
+    color: #03045E;
+    max-width: 435px;
+    min-height: 46px;
+    width: 100%;
+    height: 100%;
+    margin-top: 150px;
+    
+}
+
+.clients-feedback_container{
+    display: flex;
+    margin-top :60px;
+    justify-content: space-between;
+    max-width: 1282px;
+    width: 100%;
+}
+
+.clients-feedback_block{
+    width: 100%;
+    max-width: 406px;
+    min-height: 263px;
+    background: #f6f6f680;
+    
+    padding: 50px 40px;
+    text-align: center;
+
+
+}
+.clients-feedback_name{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    margin-top: 20px;
+    
+
+
+    
+
+    color: #03045E;
+}
+
+.clients-feedback_text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+
+   
+
+    color: #03045E;
+
+    opacity: 0.5;
+}
+
+.clients-feedback_firm{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 8px;
+
+    text-align: center;
+
+    
+
+    color: #03045E;
+
+    opacity: 0.5;
+
+}
+
+
+.clients-lines_container{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100px;
+}
+.clients-lines_small{
+    
+    width: 20px;
+    height: 8px;
+    
+
+    
+
+    background: #0098FF;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.clients-lines_big{
+    
+    width: 40px;
+    height: 8px;
+    
+
+    
+
+    background: #0098FF;
+    border-radius: 10px;
+}
+/* Section Clients end  */
+
+
+/* Section Stats start */
+
+.stats-container{
+    min-height: 315px;
+    background: #0098FF;
+    height: 100%;
+    width: 100%;
+    padding: 100px 224px;
+
+}
+
+.stats-container_inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.stats-block{
+    text-align: center;
+    
+}
+
+.stats-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+    margin-top: 16px;
+}
+
+.stats-number{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+    
+
+
+    color: #FFFFFF;
+}
+
+/* Section Stats end */
+
+
+/* Section Plans starts*/
+.price-container{
+    
+    padding: 150px 224px 147px ;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.price-container_inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.price-table{
+    display: flex;
+    margin-top: 60px;
+    width: 100%;
+    max-width: 1272px;
+    min-height: 593px;
+    
+    align-items: center;
+    justify-content: space-around;
+    
+
+}
+
+
+
+.price-title{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+   
+
+    color: #03045E;
+}
+
+
+.price-table_block{
+    max-width: 318px;
+    padding-top: 40px;
+    transition: 0.5s;
+    height: 100%;
+    height: 593px;
+
+    
+}
+
+.price-table_big-block{
+
+    display: flex;
+}
+.price-table_block-title{
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+
+    
+
+    color: #0098FF;
+
+}
+
+.price-table_block-price{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    
+
+    text-align: center;
+
+   
+
+    color: #03045E;
+
+    margin-top: 16px;
+}
+
+
+.price-table_block-feature_text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+   
+
+    
+
+   
+
+    color: #03045E;
+
+    opacity: 0.5;
+}
+
+.price-table_block-feature_container{
+    border-bottom: 1px solid #F7F8FD;
+    width: 318px;
+    height: 41px;
+    padding-top: 10px;
+    
+    
+}
+.price-table_block-features{
+    margin-top: 40px;
+}
+
+
+.price-btn{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    text-decoration: none;
+    
+    
+    color: #FFFFFF;
+    background: #03045E;
+    width: 150px;
+    height: 49px;
+    padding: 11px 35px;
+    position: relative;
+    top: 60px;
+    
+    border-radius: 5px;
+}
+
+
+
+
+
+.price-table_block:hover{
+    background: #0098FF;
+    
+}
+
+.price-table_block:hover .price-table_block-feature_container{
+
+    border-bottom: 1px solid #F7F8FD;
+    
+}
+
+.price-table_block:hover .price-table_block-title{
+    color: #FFFFFF;
+}
+
+.price-table_block:hover .price-table_block-price{
+
+    color: #FFFFFF;
+}
+
+.price-table_block:hover .price-table_block-feature_text{
+    opacity: 1;
+    color: #FFFFFF;
+}
+/* Section Plans end */
+
+/* Section upper-footer start */
+.upper-footer_container{
+    min-height: 472px;
+    padding: 103px 50px 0px 221px;
+    background: #F6F6F6 ;
+    
+
+}
+
+.upper-footer_inner-container{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1282px;
+}
+.upper-footer_text-block_title{
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+
+    color: #000000;
+    }
+.upper-footer_logo-text{
+    width: 297px;
+    
+    height:72px ;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    
+
+    color: #03045E;
+
+    opacity: 0.5;
+    margin-top: 24px;
+
+}
+
+.upper-footer_text-block_container{
+    margin-top: 14px;
+    gap:10px;
+    
+
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.lower{
+    margin-top: 20px;
+}
+
+.upper-footer_text-block_logos{
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 118px;
+    width: 100%;
+}
+
+.upper-footer_inner-block{
+    display: flex;
+    width: 879px;
+    justify-content: space-evenly;
+}
+.upper-footer_text-block_text{
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    
+
+    color: #03045E;
+
+    opacity: 0.5;
+}
+/* Section upper-footer end */
+
+
+/* Section lower-footer start */
+
+
+.lower-footer_container{
+    height: 101px;
+    padding: 43px  224px 0px 224px;
+}
+.lower-footer_inner-container{
+    
+    display: flex;
+    justify-content: space-between;
+    max-width: 1284px;
+    width: 100%;
+}
+
+
+
+.lower-footer_link{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    
+
+    color: #03045E;
+    text-decoration: none;
+}
+
+.lower-footer_text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    
+
+    color: #03045E;
+
+}
+
+.lower-footer_block{
+    display: flex;
+    align-items: flex-end;
+}
+/* Section lower-footer end */
+
+
+/* Section Responsive start */
+
+
+
+@media screen and (max-width: 1508px){
+    
+    
+    
+
+    .price-table{
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        gap: 80px;
+        
+    }
+    
+
+    /* .price-container{
+        padding: 5% 12% 0px;
+    } */
+
+    .domain-container{
+        flex-direction: column;
+        gap: 25px;
+        align-items: center;
+    }
+
+    .domain-line{
+        display: none;
+    }
+
+    .header-nav{
+        margin-left: 35px;
+    }
+
+
+    .screen1-img{
+        display: none;
+    }
+
+    .screen1-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+        
+    }
+.service-container{
+    margin-top: 150px;
+}
+
+    
+}
+
+
+@media screen and (max-width: 1140px){
+    .header-nav{
+        display: none;
+    }
+    .header{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .upper-footer_container{
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .stats-container{
+        padding-left: 104px;
+        padding-right: 104px;
+
+    }
+
+    .service-container{
+        padding-left: 124px;
+        padding-right: 124px;
+    }
+}
+
+@media screen and (max-width: 1272px){
+    .price-table{
+        flex-direction: column;
+        gap: 80px;
+    }
+
+
+}
+
+@media screen and (max-width: 960px){
+    .upper-footer_inner-container{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .upper-footer_container{
+        padding-bottom: 103px;
+    }
+
+    .upper-footer_logo-block{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .section-features_container{
+        padding-bottom: 100px;
+    }
+
+    
+    .thumbnail{
+        
+        height: 980px;
+    }
+
+    .upper-footer_inner-block{
+        max-width: 879px;
+        width: 100%;
+    }
+    .lower-footer_container{
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 43px;
+    }
+}
+
+
+@media screen and (max-width: 800px){
+    .stats-container{
+        padding-left: 52px;
+        padding-right: 52px;
+    }
+    .clients-lines_container{
+        display: none;
+    }
+
+    .screen2{
+        display: none;
+    }
+    .service-container{
+        margin-top: 0px;
+    }
+
+    .stats-number{
+        font-size: 50px;
+    }
+    .thumbnail{
+        padding: 35px;
+        height: 780px;
+    }
+}
+
+@media screen and (max-width: 639px){
+    .price-table_big-block{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .price-table{
+        
+        height: 2372px;
+    }
+
+
+    .upper-footer_inner-block{
+        flex-direction: column;
+        
+        padding-left: 100px;
+    }
+    .stats-container{
+        margin-top: 50px;
+    }
+}
+
+
+@media screen and (max-width: 551px){
+    .clients-feedback_container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-features_block-shorttitle{
+        display: none;
+    }
+    .service-container{
+        padding-left: 75px;
+        padding-right: 75px;
+    }
+    .section-features_block{
+        max-width: 153px;
+        width: 100%;
+        
+    }
+
+    .section-features_container{
+        padding-bottom: 0px;
+        margin-top: 50px;
+    }
+    .screen1-short_title{
+        display: none;
+    }
+
+    .stats-number{
+        font-size: 40px;
+    }
+    .stats-block{
+        
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .price-table{
+        size: 100px;
+    }
+    .clients-title{
+        font-size: 35px;
+        text-align: center;
+    }
+    .price-table_block{
+        width: 100%;
+    }
+    .price-container{
+        padding: 0px;
+        padding-top: 100px;
+    }
+    .price-table_big-block{
+        width: 100%;
+        align-items: center;
+    }
+    .service-container{
+        padding: 0px;
+        padding-top: 150px;
+    }
+
+    
+    .upper-footer_container{
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .thumbnail{
+        padding: 35px;
+    }
+
+    .clients-title{
+        font-size: 30px;
+    }
+    
+    .stats-container_inner{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 1729px){
+    .container{
+        max-width: 1728px;
+        margin: 0px auto;
+        width: 100%;
+    }
+
+}
+
+
+/* Section Responsive end */
